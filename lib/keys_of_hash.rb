@@ -5,7 +5,7 @@ class Hash
     arguments.each do |arg|
       self.each do |k, v|
         if v == arg
-          print k
+          array.push(k)
         end
       end
     end
