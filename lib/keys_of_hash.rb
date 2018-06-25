@@ -6,6 +6,7 @@ class Hash
       self.each do |k, v|
         if v == arg
           array.push(k)
+        elsif v ==  arg.to_i
         end
       end
     end
