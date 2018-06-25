@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     array = []
-    array.ppush(arguments.keys)
-    return
+    array.push(arguments.keys)
+    return array
   end
 end
