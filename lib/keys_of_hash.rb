@@ -7,11 +7,10 @@ class Hash
         if v == arg
           array.push(k)
         elsif v ==  arg.to_i
+          array.push(k)
         end
       end
     end
-
-
     return array
   end
 end
