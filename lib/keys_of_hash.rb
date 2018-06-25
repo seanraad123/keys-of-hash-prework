@@ -3,7 +3,7 @@ class Hash
     #array = []
 
     arguments.each do |arg|
-      print self
+      self.each do |k, v|
     end
 
 
