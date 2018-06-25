@@ -1,7 +1,9 @@
 class Hash
   def keys_of(*arguments)
     array = []
-    print arguments.keys
+    arguments.each do |arg|
+      print arg
+    end
     return array
   end
 end
