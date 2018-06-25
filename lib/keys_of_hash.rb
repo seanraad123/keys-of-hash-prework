@@ -1,9 +1,12 @@
 class Hash
   def keys_of(*arguments)
     array = []
+
     arguments.each do |arg|
       print arg
     end
+
+    
     return array
   end
 end
