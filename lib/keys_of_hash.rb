@@ -6,6 +6,8 @@ class Hash
       self.each do |k, v|
         if v == arg
           print v
+        end
+      end
     end
 
 
