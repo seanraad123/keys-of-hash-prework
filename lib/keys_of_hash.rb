@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    #array = []
+    array = []
 
     arguments.each do |arg|
       self.each do |k, v|
