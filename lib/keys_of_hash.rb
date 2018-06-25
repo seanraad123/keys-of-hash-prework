@@ -3,6 +3,7 @@ class Hash
     array = []
     if arguments.keys = arguemnts
       array.push(arguments)
+    end
     return array
   end
 end
