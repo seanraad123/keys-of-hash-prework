@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     array = []
-    array.push(arguments.keys)
+    if arguments.keys = arguemnts
     return array
   end
 end
