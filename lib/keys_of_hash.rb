@@ -3,7 +3,6 @@ class Hash
     #array = []
 
     arguments.each do |arg|
-      print arg
     end
 
     
