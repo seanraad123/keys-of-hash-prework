@@ -11,7 +11,7 @@ class Hash
     end
 
 
-    #return array
+    return array
   end
 end
 
